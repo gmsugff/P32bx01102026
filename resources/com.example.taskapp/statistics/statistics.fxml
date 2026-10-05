@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER_LEFT" fx:controller="com.example.taskapp.statistics.StatisticsController" spacing="15.0" xmlns="[http://javafx.com/javafx/17](http://javafx.com/javafx/17)" xmlns:fx="[http://javafx.com/fxml/1](http://javafx.com/fxml/1)">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20"/>
+    </padding>
+
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Статистика задач"/>
+    <Label fx:id="totalTasksLabel" text="Общее количество задач: 0"/>
+    <Label fx:id="completedTasksLabel" text="Выполнено: 0"/>
+    <Label fx:id="completionPercentLabel" text="Процент завершения: 0.0%"/>
+</VBox>
